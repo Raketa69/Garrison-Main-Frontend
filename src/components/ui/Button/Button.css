@@ -1,0 +1,39 @@
+/* ---- Global ---- */
+/* ---- Variables ---- */
+/* -- Colors -- */
+/* ---- Fonts ---- */
+@font-face {
+  font-family: 'Playfair Bold';
+  src: url("../../../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf"); }
+
+* {
+  font-family: 'Playfair Bold'; }
+
+.button_wrapper {
+  margin-top: 30px;
+  margin-left: 8%;
+  width: 280px;
+  height: 50px;
+  border: 3px #4A2C0A solid; }
+  .button_wrapper .big_wrapper {
+    margin-top: -13px;
+    margin-left: 13px;
+    border: 3px #5E3B13 solid;
+    height: 70px;
+    width: 250px;
+    transition: ease-in-out 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .button_wrapper .big_wrapper:hover {
+    background: rgba(94, 59, 19, 0.8);
+    transition: ease-in-out 300ms; }
+
+.button-link {
+  color: white;
+  text-decoration: none;
+  transition: ease-in-out 300ms; }
+
+.button-link:hover {
+  color: #fffcc2;
+  transition: ease-in-out 300ms; }

@@ -1,0 +1,58 @@
+@import "../../../styles/global.scss";
+
+.gallery_wrapper {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: auto;
+
+
+
+
+    .gallery-item-wrap {
+        //background: #000;
+        z-index: 999999;
+        display: block;
+        //position: relative;
+    }
+
+    .gallery-item-wrap:hover .overlay {
+        opacity: 1;
+    }
+
+    .gallery-item-img {
+        margin: 15px;
+        z-index: -1;
+        transition: transform 0.3s ease;
+        width: 300px;
+        height: 250px;
+    }
+
+    .wide-img {
+        width: 600px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    /*.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../../../public/favicons/logo.svg');
+        background-size: contain;
+        //background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black 
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }*/
+
+    .gallery-item-img:hover {
+        transform: scale(1.05);
+    }
+
+
+}

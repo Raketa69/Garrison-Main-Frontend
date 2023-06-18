@@ -1,0 +1,15 @@
+/* ---- Global ---- */
+/* ---- Variables ---- */
+/* -- Colors -- */
+/* ---- Fonts ---- */
+@font-face {
+  font-family: 'Playfair Bold';
+  src: url("../../../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf"); }
+
+* {
+  font-family: 'Playfair Bold'; }
+
+.intro_section .intro_content {
+  height: 1000px;
+  width: 100%;
+  background-color: #120B02; }

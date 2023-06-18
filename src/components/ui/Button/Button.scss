@@ -1,0 +1,41 @@
+@import "../../../styles/global.scss";
+
+.button_wrapper {
+    margin-top: 30px;
+    margin-left: 8%;
+    width: 280px;
+    height: 50px;
+    border: 3px $rect-dark solid;
+
+    .big_wrapper {
+        margin-top: -13px;
+        margin-left: 13px;
+        border: 3px $rect-soft solid;
+        height: 70px;
+        width: 250px;
+        transition: ease-in-out 300ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba($color: $rect-dark, $alpha: 0.2);
+    }
+
+    .big_wrapper:hover {
+        background: rgba($color: $rect-soft, $alpha: 0.8);
+        transition: ease-in-out 300ms;
+    }
+
+}
+
+.button-link {
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 300ms;
+
+}
+
+.button-link:hover {
+    color: $soft-white;
+    transition: ease-in-out 300ms;
+
+}

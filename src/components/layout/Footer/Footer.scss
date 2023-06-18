@@ -1,0 +1,24 @@
+/* ---- Footer ---- */
+@import "../../../styles/global.scss";
+
+.footer {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $superdark-brown;
+
+    .footer_heading, .footer_links {
+        margin: 40px;
+        color: white;
+    }
+
+
+    .footer_links {
+        display: flex;
+        .link {
+            margin: 20px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/* ---- Global ---- */
+/* ---- Variables ---- */
+/* -- Colors -- */
+/* ---- Fonts ---- */
+@font-face {
+  font-family: 'Playfair Bold';
+  src: url("../../../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf"); }
+
+* {
+  font-family: 'Playfair Bold'; }
+
+.nav-lang {
+  margin-top: 25px;
+  margin-right: 50px; }
+  .nav-lang .nav-pills {
+    display: flex;
+    list-style: none; }
+    .nav-lang .nav-pills .nav-link {
+      color: white;
+      margin: 10px;
+      outline: none;
+      border: 0;
+      background: transparent;
+      padding: 5px 10px 5px 10px;
+      border-radius: 7px; }
+    .nav-lang .nav-pills .nav-link_active {
+      background: #5E3B13; }

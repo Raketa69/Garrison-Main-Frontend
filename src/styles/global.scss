@@ -1,0 +1,16 @@
+/* ---- Global ---- */
+@import "./resources/variables.scss";
+@import "./resources/fonts.scss";
+
+
+
+.heading_section {
+    color: $main-beige;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text_section {
+    font-family: 'Roboto Bold';
+    line-height: 45px;
+}

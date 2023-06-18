@@ -1,0 +1,59 @@
+/* ---- Header ---- */
+/* ---- Global ---- */
+/* ---- Variables ---- */
+/* -- Colors -- */
+/* ---- Fonts ---- */
+@font-face {
+  font-family: 'Playfair Bold';
+  src: url("../../../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf"); }
+
+* {
+  font-family: 'Playfair Bold'; }
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  background-image: linear-gradient(transparent 0%, transparent 90%, #fffcc2 90%, #fffcc2 100%);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  background-position-x: center;
+  transition: background-size 300ms; }
+
+.nav-link:hover {
+  color: #fffcc2;
+  transition: ease-in-out 0.3s;
+  text-underline-offset: 3px;
+  color: #fffcc2 !important;
+  background-size: 100% 100%;
+  background-position-x: center; }
+
+.header {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 110px;
+  background: rgba(22, 12, 1, 0.91);
+  display: flex;
+  justify-content: space-between; }
+  .header .header_logo {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px; }
+  .header .header_menu {
+    width: 45%;
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-right: 100px; }
+    .header .header_menu .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between; }
+
+.header_logo {
+  height: 100px;
+  width: 100px;
+  background: url("../../../../public/favicons/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover; }

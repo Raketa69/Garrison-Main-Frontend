@@ -1,0 +1,49 @@
+@import "../../../../styles/global.scss";
+
+.reserv_section {
+    background: #000;
+}
+
+.reserv_content {
+    width: 100%;
+    height: 100vh;
+    background: url('../../../../../public/img/home/reserv-bg-opac.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+    .reserv_heading {
+        font-family: 'Playfair Bold';
+        padding-top: 100px;
+        text-align: center;
+        text-shadow:
+            1px 1px 1px black,
+            0 1px 1px black,
+            -1px 0 1px black,
+            0 -1px 1px black;
+    }
+
+    .reserv_subheading {
+        color: white;
+    }
+
+    .reserv_form {
+        font-family: 'Roboto Bold';
+        margin: auto;
+        width: 50%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .textField {
+        margin: auto;
+        width: 30%;
+        height: 50px;
+    }
+
+
+}

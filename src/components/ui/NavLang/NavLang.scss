@@ -1,0 +1,26 @@
+@import "../../../styles/global.scss";
+
+.nav-lang {
+
+    margin-top: 25px;
+    margin-right: 50px;
+
+    .nav-pills {
+        display: flex;
+        list-style: none;
+
+        .nav-link {
+            color: white;
+            margin: 10px;
+            outline: none;
+            border: 0;
+            background: transparent;
+            padding: 5px 10px 5px 10px;
+            border-radius: 7px;
+        }
+        .nav-link_active {
+            background: $rect-soft;
+            
+        }
+    }
+}
