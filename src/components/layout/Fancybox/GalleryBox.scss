@@ -9,9 +9,6 @@
     flex-wrap: wrap;
     margin: auto;
 
-
-
-
     .gallery-item-wrap {
         //background: #000;
         z-index: 999999;
@@ -37,6 +34,14 @@
         object-fit: cover;
     }
 
+    .round-item {
+        border-radius: 20px;
+    }
+
+    .big-item {
+        width: 600px;
+        height: 600px;
+    }
     /*.overlay {
         position: absolute;
         top: 0;

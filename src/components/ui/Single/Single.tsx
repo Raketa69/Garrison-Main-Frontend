@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Chart from '../Chart/Chart'
 import DataTable from '../DataTable/DataTable'
 import NavBar from '../NavBar/NavBar'
@@ -13,7 +14,7 @@ const Single = () => {
                     <NavBar />
                     <div className="top-content">
                         <div className="left-content">
-                            <div className="edit-button">Edit</div>
+                            <Link to="/users/new"><div className="edit-button">Edit</div></Link> 
                             <h1 className='title'>Information</h1>
                             <div className="item">
                                 <img

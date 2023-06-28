@@ -1,0 +1,199 @@
+/*      MenuPage.scss    */
+@import '../../styles/global.scss';
+
+.menupage_content {
+
+    background: url('../../../public/img/menu/menu-bg.jpg') no-repeat;
+    background-size: 100%;
+
+}
+
+.menu_content {
+    padding-top: 50px;
+    background-color: $soft-dark-brown2;
+    padding-left: 50px;
+    padding-bottom: 100px;
+
+    .tabs__items {
+
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+
+        .tabs__heading {
+            font-family: 'Playfair Bold';
+            color: $soft-white;
+            text-decoration: none;
+            margin: 20px;
+        }
+    }
+
+    .tabs__block {
+        display: none;
+        padding-left: 25px;
+
+        .dish_item {
+            margin-top: 50px;
+
+            .item_content {
+                display: flex;
+
+                .item_img {
+                    width: 30%;
+                    height: 400px;
+
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 10px;
+                }
+
+                .item_img_salat {
+                    background: url('../../../public/img/menu/salat1.webp');
+                }
+
+                .item_img_salat2 {
+                    background: url('https://seti.in.ua/images/2021/06/16/salaty-big-item1.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_salat3 {
+                    background: url('https://seti.in.ua/images/2021/06/18/salaty-big-item4.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_cold {
+                    background: url('https://seti.in.ua/images/2021/06/16/vegetarian-big-item4.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_cold2 {
+                    background: url('https://seti.in.ua/images/2021/06/16/h-zakuski-big-item5.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_cold3 {
+                    background: url('https://cdn.vkusnoo.com.ua/images/14504/14504-tartaletki-s-lososem.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_hot {
+                    background: url('https://seti.in.ua/images/2021/06/16/g-zakuski-big-item1.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_hot2 {
+                    background: url('https://seti.in.ua/images/2021/06/17/g-zakuski-big-item3.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_hot3 {
+                    background: url('https://ye.ua/images/upload/dovidnuk/photo/9ab28a21b7950c20faefeea9308c4c41.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_soup {
+                    background: url('https://seti.in.ua/images/2021/06/17/supy-big-item1.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_soup2 {
+                    background: url('https://i.ytimg.com/vi/-15ZUDmOjyg/maxresdefault.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_soup3 {
+                    background: url('https://tuca.com.ua/wp-content/uploads/2020/03/recept_7678_p0nh.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_garnir {
+                    background: url('https://seti.in.ua/images/2021/06/17/garniry-big-item1.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_garnir2 {
+                    background: url('https://i.ytimg.com/vi/kpt-uV7ScVw/maxresdefault.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_garnir3 {
+                    background: url('https://img1.russianfood.com/dycontent/images_upl/496/big_495504.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_meat {
+                    background: url('https://seti.in.ua/images/2021/06/17/myaso-big-item1.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_meat2 {
+                    background: url('https://seti.in.ua/images/2021/06/17/myaso-big-item2.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_meat3 {
+                    background: url('https://brandfood.net/wp-content/uploads/2021/08/stejk-s-vishnevym-sousom-1-480x270.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_img_desert {
+                    background: url('https://seti.in.ua/images/2021/06/19/desserts-big-item11.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+
+                .item_img_desert2 {
+                    background: url('https://seti.in.ua/images/2021/06/19/desserts-big-item2.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+
+                .item_img_desert3 {
+                    background: url('https://www.koolinar.ru/all_image/recipes/84/84092/recipe_3a148d06-c322-4a93-bd22-bbefcf28b9c4_w450.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .item_text {
+                    margin-left: 100px;
+                    text-align: left;
+                    width: 60%;
+
+                    .item_text_heading {
+                        font-weight: bold;
+                    }
+
+                    .item_text_content {
+                        color: white;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+
+    .tabs__block:target {
+        display: block;
+    }
+}

@@ -1,0 +1,21 @@
+/* ABOUT PAGE */
+
+.aboutIntroSection_content {
+    padding-top: 100px;
+}
+.intro_content {
+    height: 100vh;
+
+
+
+    .into_card {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        .card_img {
+            background: url("../../../../../public/img/about/about-intro-sec.jpg");
+            background-size: cover;
+        }
+    }
+
+}

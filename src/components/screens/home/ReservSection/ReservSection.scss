@@ -4,6 +4,7 @@
     background: #000;
 }
 
+
 .reserv_content {
     width: 100%;
     height: 100vh;
@@ -28,6 +29,7 @@
     }
 
     .reserv_form {
+  
         font-family: 'Roboto Bold';
         margin: auto;
         width: 50%;
@@ -35,15 +37,19 @@
         padding: 10px;
         border-radius: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .textField {
-        margin: auto;
+        margin: 50px;
         width: 30%;
         height: 50px;
     }
 
+    .btn_submin {
+        margin-top: 70px;
+    }
 
 }

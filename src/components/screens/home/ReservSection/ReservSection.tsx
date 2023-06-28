@@ -10,7 +10,7 @@ export default function ReservSection() {
             <section className='reserv_section'>
                 <div className="reserv_content">
                     <div className='heading_section reserv_heading'>Резервування</div>
-                    <div className='heading_section reserv_heading reserv_subheading'>Замовити столик чи банкет</div>
+                    <div id="reserv" className='heading_section reserv_heading reserv_subheading'>Замовити столик чи банкет</div>
                     <div className='reserv_form-wrap'>
                         <form action="" className='reserv_form'>
                             <FloatingLabel
@@ -55,8 +55,13 @@ export default function ReservSection() {
                             >
                                 <Form.Control type="text" placeholder="Коментар" />
                             </FloatingLabel>
+                            <div className="btn_submin"> 
+                                <Button  text="Замовити"></Button>
+                            </div>
                         </form>
+
                     </div>
+
                 </div>
             </section>
         </>

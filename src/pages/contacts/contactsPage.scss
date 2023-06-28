@@ -1,0 +1,45 @@
+/*  contactsPage.scss   */
+
+@import "../../styles/global.scss";
+
+.contactspage_content {
+    background: url('../../../public/img/contacts/contacts-bg.webp') no-repeat;
+    background-size: cover;
+}
+
+.contacts_content {
+
+    padding-top: 50px;
+    background-color: $soft-dark-brown2;
+    color: $main-beige;
+    
+
+    .contacts_heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Playfair Bold';
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .contacts_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contacts_block {
+            text-align: center;
+            width: 50%;
+            height: 50vh;
+            margin: 50px;
+            font-size: 30px;
+            border: 1px dotted $main-beige;
+
+            a {
+                text-decoration: none;
+                color: $main-beige;
+            }
+        }
+    }
+}
